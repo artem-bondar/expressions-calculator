@@ -19,7 +19,7 @@ struct Text {
 		inputBnf[BNF_INPUT_SIZE] = {
 		" <Expression>", "::=", " <Unary-Op>", "*","<Operand>   \n     ","(","<Binary-Op>","<Unary-Op>","*","<Operand>",")* \n",
 		" <Operand>", "::=", "   <Constant>", "|","<Variable>   \n",
-		" <Unary-Operator>", " ::=", " log"," | ","cos\t\t\n",
+		" <Unary-Operator>", " ::=", " ln"," | ","cos\t\t\n",
 		" <Binary-Operator>", "::=", " *", " | ","+", " | ", "-\t\t\n" },
 		bnfHint = "\n You can use white symbols and brackets anywhere \n",
 		inputFileName = "\n Please, specify file name (simply press <ENTER> to input from console): \n",
